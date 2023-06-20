@@ -15,9 +15,13 @@
             document.getElementById("sidebar").getElementsByTagName("ul")[0].getElementsByTagName("li")[1].style.display = 'none'
             document.getElementById("sidebar").getElementsByTagName("ul")[0].getElementsByTagName("li")[2].style.display = 'none'
             document.getElementById("sidebar").getElementsByTagName("ul")[0].getElementsByTagName("li")[3].style.display = 'none'
+            document.getElementById("sidebar").getElementsByTagName("ul")[0].getElementsByTagName("li")[4].onclick = () => {
+                setTimeOut(()=>{
             document.getElementsByClassName("releases")[0].getElementsByTagName("a")[0].innerText = 'Alash electronics'
             document.getElementsByClassName("pane-content")[0].getElementsByTagName("div")[3].style.display = 'none'
             document.getElementsByClassName("pane-content")[0].getElementsByTagName("div")[2].style.display = 'none'
+                }, 50);
+            }
         </script>
     </body>
 </html>
